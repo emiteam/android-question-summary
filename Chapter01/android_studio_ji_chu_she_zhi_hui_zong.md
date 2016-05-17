@@ -1,11 +1,13 @@
 # Android Studio 基础设置汇总
-1. Android studio设置启动时不自动打开上次关闭的项目
+
+#### 1. Android studio设置启动时不自动打开上次关闭的项目
 
 > 打开配置页在搜索栏中输入 system 点击System Settings 将红框内的勾选去掉。
 
 ![](20151024172115738)
 
-2. Android Studio 把快捷键设置成Eclipse的方式
+
+#### 2.Android Studio 把快捷键设置成Eclipse的方式
 
 
 > 之前习惯了使用ADT，也记住了快捷键，迁移到Android Studio，有点不习惯，改一下会很方便。 
@@ -16,3 +18,9 @@
 Studio这种快捷键的适配感觉很爽。
 
 ![](20151008200255172)
+
+#### 3.Android Studio 设置智能感知不区分大小写
+
+> 找到Code Completion 将红色框内的改为None。
+
+![](20151008193235149)
