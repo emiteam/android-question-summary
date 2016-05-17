@@ -1,9 +1,9 @@
 # 安卓开发问题汇总
 
 
-> 作者：北方民族大学 e米团队
+> 作者：北方民族大学 [e米团队](https://www.gitbook.com/@emiteam)
 > 
-> 发起人：周庆鹏
+> 发起人：[周庆鹏](https://github.com/lovelvyan)
 > 
 > 参与者：范承波、张帅、李霖
 
