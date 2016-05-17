@@ -8,6 +8,8 @@
 
 圆角：同时设置五个属性，则Radius属性无效
 
+
+
 android:Radius="20dp"                     设置四个角的半径
 android:topLeftRadius="20dp"              设置左上角的半径 
 android:topRightRadius="20dp"             设置右上角的半径 
