@@ -5,7 +5,7 @@
 > 
 > 发起人：[周庆鹏](https://github.com/lovelvyan)
 > 
-> 参与者：范承波、张帅、李霖
+> 参与者：[范承波](https://www.gitbook.com/@liulangdeyu/)、张帅、李霖
 
 
 
