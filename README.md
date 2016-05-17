@@ -1,3 +1,14 @@
 # 安卓开发问题汇总
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+作者：北方民族大学 e米团队
+
+
+# 序言
+
+1. 你觉得自己遇到的BUG再次出现时你能顺利解决吗？
+2. 你觉得自己的记忆力可以记住各种细节问题吗？
+3. 您自己有个人博客记录这些曾经遇到的BUG吗？
+4. 你觉得自己有时间记录自己解决问题的过程吗？
+
+
+
