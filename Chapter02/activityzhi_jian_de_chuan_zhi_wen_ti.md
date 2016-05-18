@@ -41,11 +41,11 @@ startActivity(intent);  ```
 2.2 接收参数
 
 ```Bundle bundle = getIntent().getExtras();   
-ArrayListlist = bundle.getParcelableArrayList("list");  
-   List<Map>lists= (List<Map>)list.get(0);  
-   StringsResult = "";  
-   for (Map m : lists){   
-      for (String k : m.keySet()){    
-         sResult += "\r\n"+k + " : " +m.get(k);    
+ArrayList list = bundle.getParcelableArrayList("list");  
+List<Map> lists = (List<Map>)list.get(0);  
+String sResult = "";  
+   for (Map m : lists){
+      for (String k : m.keySet()){
+         sResult += "\r\n"+k + " : " +m.get(k);
       }            
 }```
