@@ -4,18 +4,18 @@
 
 1.1 设置参数
 
-> Intent intent = new Intent();  
+```Intent intent = new Intent();  
 intent.setClass(MainActivity.this,NextActivity.class); 
 Bundle bundle = new Bundle();  
 bundle.putString("name", "zhouqingpeng"); 
 bundle.putString("pwd", "123456"); 
 intent.putExtras(bundle);  
-startActivity(intent);  
+startActivity(intent);  ```
 
 1.2 接收参数
 
-> Bundle bunde = this.getIntent().getExtras();  
+```Bundle bunde = this.getIntent().getExtras();  
 String name = bunde.getString("name");  
-String pwd = bunde.getString("pwd");  
+String pwd = bunde.getString("pwd");  ```
 
 
