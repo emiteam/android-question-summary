@@ -18,7 +18,7 @@ startActivity(intent);  ```
 String name = bunde.getString("name");  
 String pwd = bunde.getString("pwd");  ```
 
-####利用Intent对象携带如ArrayList之类复杂些的数据
+####2.利用Intent对象携带如ArrayList之类复杂些的数据
 这种原理是和上面一种是一样的，只是要注意下。 在传参数前，要用新增加一个List将对象包起来。
 
 2.1 设置参数传递复杂些的参数  
