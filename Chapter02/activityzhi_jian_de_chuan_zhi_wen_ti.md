@@ -49,3 +49,34 @@ String sResult = "";
          sResult += "\r\n"+k + " : " +m.get(k);
       }            
 }```
+
+####3.通过实现Serializable接口
+3.1 设置参数
+利用Java语言本身的特性，通过将数据序列化后，再将其传递出去。
+
+//通过Serializable接口传参数的例子  
+
+```HashMap map2= new HashMap();  
+map2.put("key1", "value1");  
+map2.put("key2", "value2");  
+Bundle bundleSerializable = new Bundle();  
+bundleSerializable.putSerializable("serializable",map2);  
+Intent intentSerializable = new Intent();    
+intentSerializable.putExtras(bundleSerializable);  
+intentSerializable.setClass(MainActivity.this,SerializableActivity.class);
+startActivity(intentSerializable);```
+
+3.2 接收参数
+
+
+```Bundle bundle =this.getIntent().getExtras();           
+HashMap map = (HashMap)bundle.getSerializable("serializable");
+String sResult = "map.size() ="+map.size(); 
+Iterator iter = map.entrySet().iterator();
+while(iter.hasNext()){  
+    Map.Entry entry = (Map.Entry)iter.next(); 
+    Object key = entry.getKey();
+    Object value = entry.getValue();
+    sResult +="key----"+(String)key;
+    sResult +="value----"+(String)value;
+}```
