@@ -12,9 +12,7 @@ bundle.putString("pwd", "123456");
 intent.putExtras(bundle);  
 startActivity(intent);  
 
-
 1.2 接收参数
-
 
 > Bundle bunde = this.getIntent().getExtras();  
 String name = bunde.getString("name");  
